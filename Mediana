@@ -1,0 +1,22 @@
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+int main (){
+  cout << "Seja bem vindo ao simulador de mediana estatística, um projeto independente do acadêmico de Engenharia Civil, Gabriel Miranda de Oliveira. Contato: gabriel.miranda@mail.uft.edu.br . Utilize .(ponto) como separador decimal. " <<endl;
+  cout <<"Digite o limite inferior da classe modal: " << endl;
+	float p1;
+  cin >>p1;
+   cout <<"Digite a frequência absoluta da classe modal " << endl;
+	float h3;
+  cin >>h3;
+	cout << "Digite a frequência acumulada crescente da classe anterior à classe modal: " << endl;
+  float j2;
+  cin >>j2;
+	cout << "Digite o intervalo de classe: " << endl;
+  float p2;
+  cin >>p2;
+  float ze;
+  ze=(p1)+(((20/2)-j2)/h3)*p2;
+  cout << "Sua mediana é: : " << ze << endl;
+  getchar();
+} 
