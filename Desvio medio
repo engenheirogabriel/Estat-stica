@@ -1,0 +1,43 @@
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+int main (){
+  cout << "Seja bem vindo ao simulador de desvio médio, um projeto independente do acadêmico de Engenharia Civil, Gabriel Miranda de Oliveira. Contato: gabriel.miranda@mail.uft.edu.br . Utilize .(ponto) como separador decimal. " <<endl;
+  cout <<"Digite a média: " << endl;
+  float p9;
+  cin >>p9;
+  cout <<"Digite o ponto médio da classe 1: " << endl;
+  float n3;
+  cin >>n3;
+  cout <<"Digite a frequência absoluta da classe 1: " << endl;
+  float h3;
+  cin >>h3;
+  cout <<"Digite o ponto médio da classe 2: " << endl;
+  float n4;
+  cin >>n4;
+  cout <<"Digite a frequência absoluta da classe 2: " << endl;
+  float h4;
+  cin >>h4;
+  cout <<"Digite o ponto médio da classe 3: " << endl;
+  float n5;
+  cin >>n5;
+  cout <<"Digite a frequência absoluta da classe 3: " << endl;
+  float h5;
+  cin >>h5;
+  cout <<"Digite o ponto médio da classe 4: " << endl;
+  float n6;
+  cin >>n6;
+  cout <<"Digite a frequência absoluta da classe 4: " << endl;
+  float h6;
+  cin >>h6;
+  cout <<"Digite o ponto médio da classe 5: " << endl;
+  float n7;
+  cin >>n7;
+  cout <<"Digite a frequência absoluta da classe 5: " << endl;
+  float h7;
+  cin >>h7;
+  float ze;
+  ze=((((n3-p9)*h3*(-1))+((n4-p9)*h4)+((n5-p9)*h5)+((n6-p9)*h6)+((n7-p9)*h7))/20);
+  cout << "Seu desvio médio é : " << ze << endl;
+  getchar();
+}
