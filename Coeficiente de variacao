@@ -1,0 +1,15 @@
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+int main (){
+  cout << "Seja bem vindo ao simulador de coeficiente de variação, um projeto independente do acadêmico de Engenharia Civil, Gabriel Miranda de Oliveira. Contato: gabriel.miranda@mail.uft.edu.br . Utilize .(ponto) como separador decimal. " <<endl;
+  cout <<"Digite o desvio padrão: " << endl;
+  float dp;
+  cin >>dp;
+  cout <<"Digite a média: " << endl;
+  float me;
+  cin >>me;
+  float ze;
+  ze=((dp/me)*100) ;
+  cout << "Seu percentual de coeficiente de variação é: " << ze << endl;
+} 
