@@ -1,0 +1,39 @@
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+int main (){
+  cout << "Seja bem vindo ao simulador de cálculo de média estatística, um projeto independente do acadêmico de Engenharia Civil, Gabriel Miranda de Oliveira. Contato: gabriel.miranda@mail.uft.edu.br . Utilize .(ponto) como separador decimal. " <<endl;
+  cout <<"Digite o ponto médio 1: " << endl;
+	float p1;
+  cin >>p1;
+	cout << "Digite a frequência 1: " << endl;
+  float p2;
+  cin >>p2;
+  cout <<"Digite o ponto médio 2: " << endl;
+	float p3;
+  cin >>p3;
+	cout << "Digite a frequência 2: " << endl;
+  float p4;
+  cin >>p4;
+  cout <<"Digite o ponto médio 3: " << endl;
+	float p5;
+  cin >>p5;
+	cout << "Digite a frequência 3: " << endl;
+  float p6;
+  cin >>p6;
+  cout <<"Digite o ponto médio 4: " << endl;
+	float p7;
+  cin >>p7;
+	cout << "Digite a frequência 4: " << endl;
+  float p8;
+  cin >>p8;
+  cout <<"Digite o ponto médio 5: " << endl;
+	float p9;
+  cin >>p9;
+	cout << "Digite a frequência 5: " << endl;
+  float p10;
+  cin >>p10;
+  float ze;
+  ze=(((p1*p2)+(p3*p4)+(p5*p6)+(p7*p8)+(p9*p10))/20);
+  cout << "Sua média é: : " << ze << endl;
+} 
